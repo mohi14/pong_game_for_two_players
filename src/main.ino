@@ -91,8 +91,6 @@ void loop() {
   }
 
 
-  //up_state  |= (digitalRead(UP_BUTTON) == LOW);
-  // down_state |= (digitalRead(DOWN_BUTTON)  == LOW);
 
   if (time > ball_update) {
     uint8_t new_x = ball_x + ball_dir_x;
